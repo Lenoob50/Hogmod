@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=dandelion": {
+      "model": "hogmod:gelly_weed_plants"
+    }
+  }
+}

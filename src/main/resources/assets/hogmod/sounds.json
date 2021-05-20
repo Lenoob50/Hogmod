@@ -1,0 +1,12 @@
+{
+  "hogmusique": {
+    "category": "music",
+    "subtitle": "subtitles.hogmusique",
+    "sounds": [
+      {
+        "name": "hogmod:musique-generique-harry-potter",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "id_map": {
+    "ENTITY": 2,
+    "GUI": 2
+  },
+  "mod_elements": [
+    {
+      "name": "Broom",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
+      "registry_name": "broom"
+    },
+    {
+      "name": "GummyBear",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummy_bear"
+    },
+    {
+      "name": "LogoCreativeTab",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logo_creative_tab"
+    },
+    {
+      "name": "HogcraftItem",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hogcraft_item"
+    },
+    {
+      "name": "HogcraftFood",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hogcraft_food"
+    },
+    {
+      "name": "MilkChocolate",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milk_chocolate"
+    },
+    {
+      "name": "DarkChocolate",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_chocolate"
+    },
+    {
+      "name": "WhiteChocolate",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_chocolate"
+    },
+    {
+      "name": "BroomRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "broom_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HogGenerique",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hog_generique"
+    },
+    {
+      "name": "Mouse",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mouse"
+    },
+    {
+      "name": "Fondveet",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fondveet"
+    },
+    {
+      "name": "Gellyweed",
+      "type": "potion",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gellyweed"
+    },
+    {
+      "name": "GellyweedPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gellyweed_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipePotions",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_potions"
+    },
+    {
+      "name": "HogcraftPlants",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hogcraft_plants"
+    },
+    {
+      "name": "GellyWeedPlants",
+      "type": "plant",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gelly_weed_plants"
+    },
+    {
+      "name": "PotionOfGellyweed",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_gellyweed"
+    },
+    {
+      "name": "CommandDeTestDuModCommandExecuted",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "command_de_test_du_mod_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CommandDeTestDuMod",
+      "type": "command",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "command_de_test_du_mod"
+    },
+    {
+      "name": "Micro",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "micro"
+    },
+    {
+      "name": "GummyBearRed",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummy_bear_red"
+    },
+    {
+      "name": "Baginv",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      },
+      "registry_name": "baginv"
+    },
+    {
+      "name": "Closebag",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "closebag",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack"
+    },
+    {
+      "name": "BackpackRightClickedInAir",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "hogmusique",
+      "files": [
+        "musique-generique-harry-potter"
+      ],
+      "category": "music",
+      "subtitle": "Hogmusic-Generique"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "tile.mouse.name": "Mouse",
+      "item.logo_creative_tab.name": "Logo Hogcraft",
+      "item.backpack.name": "Backpack",
+      "entity.broom.name": "BroomStick",
+      "effect.gellyweed": "Gellyweed",
+      "item.dark_chocolate.name": "Dark Chocolate",
+      "itemGroup.tabhogcraft_item": "Hogcraft Item",
+      "potion.effect.gellyweed": "Gellyweed",
+      "splash_potion.effect.gellyweed": "Splash Gellyweed",
+      "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
+      "itemGroup.tabhogcraft_food": "Hogcraft Food",
+      "item.milk_chocolate.name": "Milk Chocolate",
+      "item.white_chocolate.name": "White Chocolate",
+      "subtitles.hogmusique": "Hogmusic-Generique",
+      "tile.fondveet.name": "Fondveet",
+      "item.record.hog_generique.desc": "HogGénérique",
+      "tile.gelly_weed_plants.name": "Gelly Weed Plants",
+      "item.micro.name": "Micro",
+      "item.hog_generique.name": "Hog Generique",
+      "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
+      "item.gummy_bear.name": "Gummy Candy Green",
+      "item.gummy_bear_red.name": "Gummy Bear Red",
+      "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
+      "item.potion_of_gellyweed.name": "Potion Of Gellyweed"
+    },
+    "fr_fr": {
+      "tile.mouse.name": "Mouse",
+      "item.logo_creative_tab.name": "Logo Hogcraft",
+      "item.backpack.name": "Backpack",
+      "entity.broom.name": "Nimbus 2000",
+      "effect.gellyweed": "Gellyweed",
+      "item.dark_chocolate.name": "Chocolat Noir",
+      "itemGroup.tabhogcraft_item": "Item Hogcraft",
+      "potion.effect.gellyweed": "Gellyweed",
+      "splash_potion.effect.gellyweed": "Splash Gellyweed",
+      "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
+      "itemGroup.tabhogcraft_food": "Hogcraft Nourriture",
+      "item.milk_chocolate.name": "Chocolat au lait",
+      "item.white_chocolate.name": "Chocolat Blanc",
+      "subtitles.hogmusique": "Hogmusic-Generique",
+      "tile.fondveet.name": "Fondveet",
+      "item.record.hog_generique.desc": "HogGénérique",
+      "tile.gelly_weed_plants.name": "Gelly Weed Plants",
+      "item.micro.name": "Micro",
+      "item.hog_generique.name": "Hog Generique",
+      "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
+      "item.gummy_bear.name": "Bonbon Gelatineux",
+      "item.gummy_bear_red.name": "Gummy Bear Red",
+      "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
+      "item.potion_of_gellyweed.name": "Potion Of Gellyweed"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "hogmod",
+    "modName": "HogMod",
+    "version": "1.0.1",
+    "description": "Mod for Hogcraft Server",
+    "author": "Lenoob_",
+    "websiteURL": "https://hogcraft.fr",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "theme_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Lenoob_",
+    "modElementsPackage": "fr.hogcraft.hogmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

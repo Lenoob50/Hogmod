@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "Hogcraft Food",
+    "icon": {
+      "value": "CUSTOM:LogoCreativeTab"
+    },
+    "showSearch": true
+  }
+}

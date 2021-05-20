@@ -1,0 +1,22 @@
+{
+  "_fv": 13,
+  "_type": "potion",
+  "definition": {
+    "name": "Gellyweed",
+    "effectName": "Gellyweed",
+    "icon": "gellyweedpotion.png",
+    "color": {
+      "value": -16737946,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "GellyweedPotionStartedapplied"
+    }
+  }
+}

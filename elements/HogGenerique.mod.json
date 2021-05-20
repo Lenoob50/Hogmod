@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "dischg",
+    "name": "Hog Generique",
+    "description": "HogGénérique",
+    "creativeTab": {
+      "value": "CUSTOM:HogcraftItem"
+    },
+    "music": {
+      "value": "CUSTOM:hogmusique"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

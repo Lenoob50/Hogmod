@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "gold_block",
+        "5": "hay_block_side",
+        "6": "oak_planks"
+      },
+      "name": "default"
+    }
+  }
+}

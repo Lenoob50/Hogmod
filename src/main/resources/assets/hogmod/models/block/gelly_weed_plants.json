@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "hogmod:blocks/gellyweed_top",
+    "particle": "hogmod:blocks/gellyweed_top"
+  }
+}
