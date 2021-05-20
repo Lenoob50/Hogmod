@@ -58,21 +58,63 @@ public class GuiBaginv extends ElementsHogmodMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 6);
+			this.internal = new InventoryBasic("", true, 27);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 7, 35) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 7, 17) {
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 34, 35) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 25, 17) {
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 61, 35) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 43, 17) {
 			}));
-			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 88, 35) {
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 61, 17) {
 			}));
-			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 115, 35) {
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 79, 17) {
 			}));
-			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 142, 35) {
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 97, 17) {
+			}));
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 115, 17) {
+			}));
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 133, 17) {
+			}));
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 151, 17) {
+			}));
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 7, 35) {
+			}));
+			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 25, 35) {
+			}));
+			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 43, 35) {
+			}));
+			this.customSlots.put(12, this.addSlotToContainer(new Slot(internal, 12, 61, 35) {
+			}));
+			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 79, 35) {
+			}));
+			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 97, 35) {
+			}));
+			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 115, 35) {
+			}));
+			this.customSlots.put(16, this.addSlotToContainer(new Slot(internal, 16, 133, 35) {
+			}));
+			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 151, 35) {
+			}));
+			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 7, 53) {
+			}));
+			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 25, 53) {
+			}));
+			this.customSlots.put(20, this.addSlotToContainer(new Slot(internal, 20, 43, 53) {
+			}));
+			this.customSlots.put(21, this.addSlotToContainer(new Slot(internal, 21, 61, 53) {
+			}));
+			this.customSlots.put(22, this.addSlotToContainer(new Slot(internal, 22, 79, 53) {
+			}));
+			this.customSlots.put(23, this.addSlotToContainer(new Slot(internal, 23, 97, 53) {
+			}));
+			this.customSlots.put(24, this.addSlotToContainer(new Slot(internal, 24, 115, 53) {
+			}));
+			this.customSlots.put(25, this.addSlotToContainer(new Slot(internal, 25, 133, 53) {
+			}));
+			this.customSlots.put(26, this.addSlotToContainer(new Slot(internal, 26, 151, 53) {
 			}));
 			int si;
 			int sj;
@@ -99,18 +141,18 @@ public class GuiBaginv extends ElementsHogmodMod.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 6) {
-					if (!this.mergeItemStack(itemstack1, 6, this.inventorySlots.size(), true)) {
+				if (index < 27) {
+					if (!this.mergeItemStack(itemstack1, 27, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 6, false)) {
-					if (index < 6 + 27) {
-						if (!this.mergeItemStack(itemstack1, 6 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 27, false)) {
+					if (index < 27 + 27) {
+						if (!this.mergeItemStack(itemstack1, 27 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 6, 6 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 27, 27 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -277,6 +319,7 @@ public class GuiBaginv extends ElementsHogmodMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
+			this.fontRenderer.drawString("Backpack", 5, 4, -12829636);
 		}
 
 		@Override
