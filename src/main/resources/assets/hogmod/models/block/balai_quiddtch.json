@@ -1,0 +1,10 @@
+{
+  "parent": "hogmod:custom/balai",
+  "textures": {
+    "all": "hogmod:blocks/gold_block",
+    "particle": "hogmod:blocks/gold_block",
+    "3": "hogmod:blocks/gold_block",
+    "5": "hogmod:blocks/hay_block_side",
+    "6": "hogmod:blocks/oak_planks"
+  }
+}

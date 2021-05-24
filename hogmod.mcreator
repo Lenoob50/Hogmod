@@ -212,15 +212,6 @@
       "registry_name": "command_de_test_du_mod"
     },
     {
-      "name": "Micro",
-      "type": "item",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "micro"
-    },
-    {
       "name": "GummyBearRed",
       "type": "food",
       "sortid": 21,
@@ -298,6 +289,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "CanapeanglegaucheSD",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "canapeanglegauche_sd"
+    },
+    {
+      "name": "SofaRightclick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sofa_rightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BalaiQuiddtch",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "balai_quiddtch"
     }
   ],
   "variable_elements": [],
@@ -321,6 +347,8 @@
       "item.dark_chocolate.name": "Dark Chocolate",
       "itemGroup.tabhogcraft_item": "Hogcraft Item",
       "potion.effect.gellyweed": "Gellyweed",
+      "tile.canapeanglegauche_sd.name": "Canapeanglegauche SD",
+      "tile.balai_quiddtch.name": "Balai Quiddtch",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "itemGroup.tabhogcraft_food": "Hogcraft Food",
@@ -330,7 +358,6 @@
       "tile.fondveet.name": "Fondveet",
       "item.record.hog_generique.desc": "HogGénérique",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",
-      "item.micro.name": "Micro",
       "item.hog_generique.name": "Hog Generique",
       "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
       "item.gummy_bear.name": "Gummy Candy Green",
@@ -347,6 +374,8 @@
       "item.dark_chocolate.name": "Chocolat Noir",
       "itemGroup.tabhogcraft_item": "Item Hogcraft",
       "potion.effect.gellyweed": "Gellyweed",
+      "tile.canapeanglegauche_sd.name": "Canapeanglegauche SD",
+      "tile.balai_quiddtch.name": "Balai Quiddtch",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "itemGroup.tabhogcraft_food": "Hogcraft Nourriture",
@@ -356,7 +385,6 @@
       "tile.fondveet.name": "Fondveet",
       "item.record.hog_generique.desc": "HogGénérique",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",
-      "item.micro.name": "Micro",
       "item.hog_generique.name": "Hog Generique",
       "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
       "item.gummy_bear.name": "Bonbon Gelatineux",

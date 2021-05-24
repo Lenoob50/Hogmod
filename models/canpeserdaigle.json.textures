@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "birch_planks",
+        "1": "blue_wool",
+        "2": "iron_block",
+        "missing": "birch_planks"
+      },
+      "name": "default"
+    }
+  }
+}
