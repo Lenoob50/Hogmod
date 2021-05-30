@@ -1,0 +1,10 @@
+{
+  "parent": "hogmod:custom/balai",
+  "textures": {
+    "all": "hogmod:blocks/netherite_block",
+    "particle": "hogmod:blocks/netherite_block",
+    "3": "hogmod:blocks/netherite_block",
+    "5": "hogmod:blocks/hay_block_side",
+    "6": "hogmod:blocks/dark_oak_planks"
+  }
+}

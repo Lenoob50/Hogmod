@@ -69,6 +69,12 @@ public class ItemBackpack extends ElementsHogmodMod.ModElement {
 		}
 
 		@Override
+		@SideOnly(Side.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
+		}
+
+		@Override
 		public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer entity, EnumHand hand) {
 			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
 			ItemStack itemstack = ar.getResult();

@@ -1,0 +1,9 @@
+{
+  "parent": "hogmod:custom/gryffondorcrate",
+  "textures": {
+    "all": "hogmod:blocks/up",
+    "particle": "hogmod:blocks/up",
+    "0": "hogmod:blocks/chest_left",
+    "1": "hogmod:blocks/up"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "hogmod:custom/pouffsoufle_crate",
+  "textures": {
+    "all": "hogmod:blocks/pouffsouffle_up",
+    "particle": "hogmod:blocks/pouffsouffle_up",
+    "0": "hogmod:blocks/chest_left",
+    "1": "hogmod:blocks/pouffsouffle_up"
+  }
+}

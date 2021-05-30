@@ -1,5 +1,5 @@
 {
-  "parent": "hogmod:custom/balai",
+  "parent": "hogmod:custom/balai_nimbus",
   "textures": {
     "all": "hogmod:blocks/gold_block",
     "particle": "hogmod:blocks/gold_block",

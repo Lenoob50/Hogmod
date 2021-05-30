@@ -24,9 +24,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "Baginv",
-    "inventorySize": 6,
+    "inventorySize": 27,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "BackpackRightClickedInAir"

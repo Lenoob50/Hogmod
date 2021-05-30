@@ -2,9 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "3": "netherite_block",
-        "5": "hay_block_side",
-        "6": "dark_oak_planks"
+        "0": "chest_left",
+        "1": "serdaigle_up"
       },
       "name": "default"
     }

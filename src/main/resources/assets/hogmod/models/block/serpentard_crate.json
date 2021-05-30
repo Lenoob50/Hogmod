@@ -1,0 +1,9 @@
+{
+  "parent": "hogmod:custom/serpentard_crate",
+  "textures": {
+    "all": "hogmod:blocks/serpentard_up",
+    "particle": "hogmod:blocks/serpentard_up",
+    "0": "hogmod:blocks/chest_left",
+    "1": "hogmod:blocks/serpentard_up"
+  }
+}
