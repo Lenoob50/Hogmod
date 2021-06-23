@@ -1,4 +1,3 @@
-tile.mouse.name=Mouse
 item.logo_creative_tab.name=Logo Hogcraft
 item.backpack.name=Backpack
 tile.serdaigle_crate.name=Serdaigle Crate
@@ -16,7 +15,6 @@ itemGroup.tabhogcraft_food=Hogcraft Food
 item.milk_chocolate.name=Milk Chocolate
 item.white_chocolate.name=White Chocolate
 subtitles.hogmusique=Hogmusic-Generique
-tile.fondveet.name=Fondveet
 tile.balai.name=Balai
 item.record.hog_generique.desc=HogGénérique
 tile.gelly_weed_plants.name=Gelly Weed Plants

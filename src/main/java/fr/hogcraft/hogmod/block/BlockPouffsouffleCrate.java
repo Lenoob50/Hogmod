@@ -40,9 +40,9 @@ public class BlockPouffsouffleCrate extends ElementsHogmodMod.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.ROCK);
+			super(Material.WOOD);
 			setUnlocalizedName("pouffsouffle_crate");
-			setSoundType(SoundType.GROUND);
+			setSoundType(SoundType.WOOD);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);

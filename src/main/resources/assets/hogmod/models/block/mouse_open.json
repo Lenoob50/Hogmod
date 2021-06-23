@@ -1,7 +1,0 @@
-{
-  "parent": "block/trapdoor_open",
-  "textures": {
-    "texture": "hogmod:blocks/007_acoustic_foam_texture",
-    "particle": "hogmod:blocks/007_acoustic_foam_texture"
-  }
-}

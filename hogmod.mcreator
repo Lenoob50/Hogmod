@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 2,
-    "ENTITY": 2
+    "ENTITY": 2,
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -92,24 +92,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hog_generique"
-    },
-    {
-      "name": "Mouse",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mouse"
-    },
-    {
-      "name": "Fondveet",
-      "type": "block",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fondveet"
     },
     {
       "name": "Gellyweed",
@@ -372,7 +354,6 @@
   ],
   "language_map": {
     "en_us": {
-      "tile.mouse.name": "Mouse",
       "item.logo_creative_tab.name": "Logo Hogcraft",
       "item.backpack.name": "Backpack",
       "tile.serdaigle_crate.name": "Serdaigle Crate",
@@ -390,7 +371,6 @@
       "item.milk_chocolate.name": "Milk Chocolate",
       "item.white_chocolate.name": "White Chocolate",
       "subtitles.hogmusique": "Hogmusic-Generique",
-      "tile.fondveet.name": "Fondveet",
       "tile.balai.name": "Balai",
       "item.record.hog_generique.desc": "HogGénérique",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",
@@ -403,7 +383,6 @@
       "item.potion_of_gellyweed.name": "Potion Of Gellyweed"
     },
     "fr_fr": {
-      "tile.mouse.name": "Mouse",
       "item.logo_creative_tab.name": "Logo Hogcraft",
       "item.backpack.name": "Backpack",
       "tile.serdaigle_crate.name": "Serdaigle Crate",
@@ -421,7 +400,6 @@
       "item.milk_chocolate.name": "Chocolat au lait",
       "item.white_chocolate.name": "Chocolat Blanc",
       "subtitles.hogmusique": "Hogmusic-Generique",
-      "tile.fondveet.name": "Fondveet",
       "tile.balai.name": "Balai",
       "item.record.hog_generique.desc": "HogGénérique",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",

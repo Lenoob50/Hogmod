@@ -39,9 +39,9 @@ public class BlockSerdaigleCrate extends ElementsHogmodMod.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.ROCK);
+			super(Material.WOOD);
 			setUnlocalizedName("serdaigle_crate");
-			setSoundType(SoundType.GROUND);
+			setSoundType(SoundType.WOOD);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
