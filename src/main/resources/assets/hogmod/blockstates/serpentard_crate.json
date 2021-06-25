@@ -2,6 +2,21 @@
   "variants": {
     "normal": {
       "model": "hogmod:serpentard_crate"
+    },
+    "facing=north": {
+      "model": "hogmod:serpentard_crate"
+    },
+    "facing=east": {
+      "model": "hogmod:serpentard_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hogmod:serpentard_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hogmod:serpentard_crate",
+      "y": 270
     }
   }
 }

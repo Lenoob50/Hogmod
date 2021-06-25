@@ -2,6 +2,21 @@
   "variants": {
     "normal": {
       "model": "hogmod:pouffsouffle_crate"
+    },
+    "facing=north": {
+      "model": "hogmod:pouffsouffle_crate"
+    },
+    "facing=east": {
+      "model": "hogmod:pouffsouffle_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hogmod:pouffsouffle_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hogmod:pouffsouffle_crate",
+      "y": 270
     }
   }
 }

@@ -1,9 +1,12 @@
 {
-  "parent": "hogmod:custom/serdaigle_crate",
+  "parent": "block/cube",
   "textures": {
-    "all": "hogmod:blocks/serdaigle_up",
-    "particle": "hogmod:blocks/serdaigle_up",
-    "0": "hogmod:blocks/chest_left",
-    "1": "hogmod:blocks/serdaigle_up"
+    "down": "hogmod:blocks/serdaigle_up",
+    "up": "hogmod:blocks/chest_left",
+    "north": "hogmod:blocks/chest_left",
+    "east": "hogmod:blocks/serdaigle_up",
+    "south": "hogmod:blocks/chest_left",
+    "west": "hogmod:blocks/chest_left",
+    "particle": "hogmod:blocks/serdaigle_up"
   }
 }

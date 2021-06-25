@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 2,
-    "GUI": 3
+    "GUI": 3,
+    "ENTITY": 2
   },
   "mod_elements": [
     {
@@ -261,32 +261,6 @@
       }
     },
     {
-      "name": "CanapeanglegaucheSD",
-      "type": "block",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "canapeanglegauche_sd"
-    },
-    {
-      "name": "SofaRightclick",
-      "type": "procedure",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sofa_rightclick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "BalaiQuiddtch",
       "type": "block",
       "sortid": 29,
@@ -339,6 +313,146 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "serdaigle_crate"
+    },
+    {
+      "name": "GryffondorKey",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gryffondor_key"
+    },
+    {
+      "name": "GetgemCommandExecuted",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getgem_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Getgem",
+      "type": "command",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getgryffondorkey"
+    },
+    {
+      "name": "SerpentardKey",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serpentard_key"
+    },
+    {
+      "name": "SerdaigleKey",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serdaigle_key"
+    },
+    {
+      "name": "PouffsoufleKey",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pouffsoufle_key"
+    },
+    {
+      "name": "GetSerpentardKeyCommandExecuted",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_serpentard_key_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetSerpentardKey",
+      "type": "command",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_serpentard_key"
+    },
+    {
+      "name": "GetSerdaigleKeyCommandExecuted",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_serdaigle_key_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetSerdaigleKey",
+      "type": "command",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_serdaigle_key"
+    },
+    {
+      "name": "GetPouffosouffleKeyCommandExecuted",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_pouffosouffle_key_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetPouffosouffleKey",
+      "type": "command",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_pouffosouffle_key"
     }
   ],
   "variable_elements": [],
@@ -357,19 +471,22 @@
       "item.logo_creative_tab.name": "Logo Hogcraft",
       "item.backpack.name": "Backpack",
       "tile.serdaigle_crate.name": "Serdaigle Crate",
+      "item.pouffsoufle_key.name": "§7Pouffsoufle §eKey",
       "effect.gellyweed": "Gellyweed",
       "tile.gryffondor_crate.name": "Gryffondor Crate",
       "item.dark_chocolate.name": "Dark Chocolate",
+      "item.gryffondor_key.name": "§6Gryffondor §cKey",
       "itemGroup.tabhogcraft_item": "Hogcraft Item",
       "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
       "potion.effect.gellyweed": "Gellyweed",
-      "tile.canapeanglegauche_sd.name": "Canapeanglegauche SD",
       "tile.balai_quiddtch.name": "Balai Quiddtch",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
+      "item.serpentard_key.name": "§2Serpentard §aKey",
       "itemGroup.tabhogcraft_food": "Hogcraft Food",
       "item.milk_chocolate.name": "Milk Chocolate",
       "item.white_chocolate.name": "White Chocolate",
+      "item.serdaigle_key.name": "§1Serdaigle §9Key",
       "subtitles.hogmusique": "Hogmusic-Generique",
       "tile.balai.name": "Balai",
       "item.record.hog_generique.desc": "HogGénérique",
@@ -386,19 +503,22 @@
       "item.logo_creative_tab.name": "Logo Hogcraft",
       "item.backpack.name": "Backpack",
       "tile.serdaigle_crate.name": "Serdaigle Crate",
+      "item.pouffsoufle_key.name": "Pouffsoufle Key",
       "effect.gellyweed": "Gellyweed",
       "tile.gryffondor_crate.name": "Gryffondor Crate",
       "item.dark_chocolate.name": "Chocolat Noir",
+      "item.gryffondor_key.name": "Gryffondor Key",
       "itemGroup.tabhogcraft_item": "Item Hogcraft",
       "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
       "potion.effect.gellyweed": "Gellyweed",
-      "tile.canapeanglegauche_sd.name": "Canapeanglegauche SD",
       "tile.balai_quiddtch.name": "Balai Quiddtch",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
+      "item.serpentard_key.name": "Serpentard Key",
       "itemGroup.tabhogcraft_food": "Hogcraft Nourriture",
       "item.milk_chocolate.name": "Chocolat au lait",
       "item.white_chocolate.name": "Chocolat Blanc",
+      "item.serdaigle_key.name": "Serdaigle Key",
       "subtitles.hogmusique": "Hogmusic-Generique",
       "tile.balai.name": "Balai",
       "item.record.hog_generique.desc": "HogGénérique",

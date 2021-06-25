@@ -1,9 +1,12 @@
 {
-  "parent": "hogmod:custom/gryffondorcrate",
+  "parent": "block/cube",
   "textures": {
-    "all": "hogmod:blocks/up",
-    "particle": "hogmod:blocks/up",
-    "0": "hogmod:blocks/chest_left",
-    "1": "hogmod:blocks/up"
+    "down": "hogmod:blocks/up",
+    "up": "hogmod:blocks/chest_left",
+    "north": "hogmod:blocks/chest_left",
+    "east": "hogmod:blocks/up",
+    "south": "hogmod:blocks/chest_left",
+    "west": "hogmod:blocks/chest_left",
+    "particle": "hogmod:blocks/up"
   }
 }

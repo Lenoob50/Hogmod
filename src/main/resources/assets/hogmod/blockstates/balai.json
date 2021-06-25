@@ -2,6 +2,21 @@
   "variants": {
     "normal": {
       "model": "hogmod:balai"
+    },
+    "facing=north": {
+      "model": "hogmod:balai"
+    },
+    "facing=east": {
+      "model": "hogmod:balai",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hogmod:balai",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hogmod:balai",
+      "y": 270
     }
   }
 }

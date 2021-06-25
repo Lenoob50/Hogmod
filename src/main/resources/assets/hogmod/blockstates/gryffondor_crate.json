@@ -2,6 +2,21 @@
   "variants": {
     "normal": {
       "model": "hogmod:gryffondor_crate"
+    },
+    "facing=north": {
+      "model": "hogmod:gryffondor_crate"
+    },
+    "facing=east": {
+      "model": "hogmod:gryffondor_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hogmod:gryffondor_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hogmod:gryffondor_crate",
+      "y": 270
     }
   }
 }

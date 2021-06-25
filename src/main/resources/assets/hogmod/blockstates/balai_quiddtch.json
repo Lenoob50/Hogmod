@@ -2,6 +2,21 @@
   "variants": {
     "normal": {
       "model": "hogmod:balai_quiddtch"
+    },
+    "facing=north": {
+      "model": "hogmod:balai_quiddtch"
+    },
+    "facing=east": {
+      "model": "hogmod:balai_quiddtch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hogmod:balai_quiddtch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hogmod:balai_quiddtch",
+      "y": 270
     }
   }
 }

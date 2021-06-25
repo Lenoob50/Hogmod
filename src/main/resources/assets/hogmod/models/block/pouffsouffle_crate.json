@@ -1,9 +1,12 @@
 {
-  "parent": "hogmod:custom/pouffsoufle_crate",
+  "parent": "block/cube",
   "textures": {
-    "all": "hogmod:blocks/pouffsouffle_up",
-    "particle": "hogmod:blocks/pouffsouffle_up",
-    "0": "hogmod:blocks/chest_left",
-    "1": "hogmod:blocks/pouffsouffle_up"
+    "down": "hogmod:blocks/pouffsouffle_up",
+    "up": "hogmod:blocks/chest_left",
+    "north": "hogmod:blocks/chest_left",
+    "east": "hogmod:blocks/pouffsouffle_up",
+    "south": "hogmod:blocks/chest_left",
+    "west": "hogmod:blocks/chest_left",
+    "particle": "hogmod:blocks/pouffsouffle_up"
   }
 }
