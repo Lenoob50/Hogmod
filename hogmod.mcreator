@@ -640,6 +640,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "firstjoin"
+    },
+    {
+      "name": "GlowOneGallions",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_one_gallions"
+    },
+    {
+      "name": "GlowTenGallions",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_ten_gallions"
+    },
+    {
+      "name": "GlowFiftyGallion",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_fifty_gallion"
     }
   ],
   "variable_elements": [],
@@ -686,11 +713,13 @@
       "itemGroup.tabhogcraft_item": "Hogcraft Item",
       "tile.pouffsouffle_crate.name": "Boite Pouffsoufle",
       "potion.effect.gellyweed": "Gellyweed",
+      "item.glow_ten_gallions.name": "§dTen Gallions",
       "tile.balai_quiddtch.name": "Balai Quiddtch",
       "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "item.serpentard_key.name": "§2Serpentard §aKey",
+      "item.glow_fifty_gallion.name": "§4Fifty Gallion",
       "itemGroup.tabhogcraft_food": "Hogcraft Food",
       "itemGroup.tabhog_money": "Hog Money",
       "item.milk_chocolate.name": "Milk Chocolate",
@@ -710,6 +739,7 @@
       "item.ice_cream.name": "Ice Cream",
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
+      "item.glow_one_gallions.name": "§3One Gallion",
       "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
       "item.potion_of_gellyweed.name": "Potion Of Gellyweed"
     },
@@ -729,11 +759,13 @@
       "itemGroup.tabhogcraft_item": "Item Hogcraft",
       "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
       "potion.effect.gellyweed": "Gellyweed",
+      "item.glow_ten_gallions.name": "§dTen Gallions",
       "tile.balai_quiddtch.name": "Balai Quiddtch",
       "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "item.serpentard_key.name": "Serpentard Key",
+      "item.glow_fifty_gallion.name": "§4Fifty Gallion",
       "itemGroup.tabhogcraft_food": "Hogcraft Nourriture",
       "itemGroup.tabhog_money": "Hog Money",
       "item.milk_chocolate.name": "Chocolat au lait",
@@ -753,6 +785,7 @@
       "item.ice_cream.name": "Ice Cream",
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
+      "item.glow_one_gallions.name": "One Gallion",
       "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
       "item.potion_of_gellyweed.name": "Potion Of Gellyweed"
     }

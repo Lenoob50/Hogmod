@@ -8,9 +8,9 @@ import net.minecraft.entity.Entity;
 
 import java.util.Map;
 
-import fr.hogcraft.hogmod.item.ItemTenGallions;
-import fr.hogcraft.hogmod.item.ItemOneGallion;
-import fr.hogcraft.hogmod.item.ItemFiftyGallions;
+import fr.hogcraft.hogmod.item.ItemGlowTenGallions;
+import fr.hogcraft.hogmod.item.ItemGlowOneGallions;
+import fr.hogcraft.hogmod.item.ItemGlowFiftyGallion;
 import fr.hogcraft.hogmod.ElementsHogmodMod;
 
 @ElementsHogmodMod.ModElement.Tag
@@ -26,17 +26,17 @@ public class ProcedureFirstjoinCommandExecuted extends ElementsHogmodMod.ModElem
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityPlayer) {
-			ItemStack _setstack = new ItemStack(ItemOneGallion.block, (int) (1));
+			ItemStack _setstack = new ItemStack(ItemGlowOneGallions.block, (int) (1));
 			_setstack.setCount(100);
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
 		}
 		if (entity instanceof EntityPlayer) {
-			ItemStack _setstack = new ItemStack(ItemTenGallions.block, (int) (1));
+			ItemStack _setstack = new ItemStack(ItemGlowTenGallions.block, (int) (1));
 			_setstack.setCount(50);
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
 		}
 		if (entity instanceof EntityPlayer) {
-			ItemStack _setstack = new ItemStack(ItemFiftyGallions.block, (int) (1));
+			ItemStack _setstack = new ItemStack(ItemGlowFiftyGallion.block, (int) (1));
 			_setstack.setCount(10);
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
 		}
