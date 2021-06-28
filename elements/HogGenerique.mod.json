@@ -4,12 +4,12 @@
   "definition": {
     "texture": "dischg",
     "name": "Hog Generique",
-    "description": "HogGénérique",
+    "description": "Hog Trailer Musique - Hedwige Theme",
     "creativeTab": {
       "value": "CUSTOM:HogcraftItem"
     },
     "music": {
-      "value": "CUSTOM:hogmusique"
+      "value": "CUSTOM:trailer_musique"
     },
     "specialInfo": [],
     "hasGlow": false

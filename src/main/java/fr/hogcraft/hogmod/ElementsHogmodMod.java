@@ -56,7 +56,12 @@ public class ElementsHogmodMod implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsHogmodMod() {
-		sounds.put(new ResourceLocation("hogmod", "hogmusique"), new net.minecraft.util.SoundEvent(new ResourceLocation("hogmod", "hogmusique")));
+		sounds.put(new ResourceLocation("hogmod", "trailer_musique"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("hogmod", "trailer_musique")));
+		sounds.put(new ResourceLocation("hogmod", "snake_living_sound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("hogmod", "snake_living_sound")));
+		sounds.put(new ResourceLocation("hogmod", "crafting_sound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("hogmod", "crafting_sound")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

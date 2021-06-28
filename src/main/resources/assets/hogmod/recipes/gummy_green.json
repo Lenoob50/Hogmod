@@ -1,0 +1,17 @@
+{
+  "group": "hogmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+      "data": 10
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "hogmod:gummy_bear",
+    "count": 1
+  }
+}

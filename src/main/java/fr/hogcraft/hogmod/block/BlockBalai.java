@@ -51,7 +51,7 @@ public class BlockBalai extends ElementsHogmodMod.ModElement {
 		public BlockCustom() {
 			super(Material.ROCK);
 			setUnlocalizedName("balai");
-			setSoundType(SoundType.GROUND);
+			setSoundType(SoundType.WOOD);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);

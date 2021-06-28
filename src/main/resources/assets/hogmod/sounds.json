@@ -1,11 +1,31 @@
 {
-  "hogmusique": {
+  "trailer_musique": {
     "category": "music",
-    "subtitle": "subtitles.hogmusique",
+    "subtitle": "subtitles.trailer_musique",
     "sounds": [
       {
-        "name": "hogmod:musique-generique-harry-potter",
+        "name": "hogmod:harry-potter-hedwigs-theme-epic-trailer-version",
         "stream": true
+      }
+    ]
+  },
+  "snake_living_sound": {
+    "category": "hostile",
+    "subtitle": "subtitles.snake_living_sound",
+    "sounds": [
+      {
+        "name": "hogmod:snake-sound",
+        "stream": false
+      }
+    ]
+  },
+  "crafting_sound": {
+    "category": "ambient",
+    "subtitle": "subtitles.crafting_sound",
+    "sounds": [
+      {
+        "name": "hogmod:bruit-de-scie",
+        "stream": false
       }
     ]
   }

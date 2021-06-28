@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "quartz_block_bottom",
+        "1": "gray_wool",
+        "2": "water_overlay",
+        "3": "white_wool"
+      },
+      "name": "default"
+    }
+  }
+}

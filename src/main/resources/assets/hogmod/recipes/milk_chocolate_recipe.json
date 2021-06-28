@@ -1,0 +1,16 @@
+{
+  "group": "hogmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hogmod:dark_chocolate"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "hogmod:milk_chocolate",
+    "count": 1
+  }
+}

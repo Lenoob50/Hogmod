@@ -1,0 +1,17 @@
+{
+  "group": "hogmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hogmod:dark_chocolate"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    }
+  ],
+  "result": {
+    "item": "hogmod:white_chocolate",
+    "count": 1
+  }
+}

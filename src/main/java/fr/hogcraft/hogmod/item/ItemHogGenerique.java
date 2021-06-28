@@ -35,7 +35,7 @@ public class ItemHogGenerique extends ElementsHogmodMod.ModElement {
 	}
 	public static class MusicDiscItemCustom extends ItemRecord {
 		public MusicDiscItemCustom() {
-			super("hog_generique", ElementsHogmodMod.sounds.get(new ResourceLocation("hogmod:hogmusique")));
+			super("hog_generique", ElementsHogmodMod.sounds.get(new ResourceLocation("hogmod:trailer_musique")));
 			setUnlocalizedName("hog_generique");
 			setRegistryName("hog_generique");
 			setCreativeTab(TabHogcraftItem.tab);

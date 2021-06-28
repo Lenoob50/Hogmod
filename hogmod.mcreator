@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 3,
-    "ENTITY": 2
+    "ENTITY": 8,
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -453,47 +453,261 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "get_pouffosouffle_key"
+    },
+    {
+      "name": "Beer",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beer"
+    },
+    {
+      "name": "Owls",
+      "type": "mob",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3,
+        "1": 4
+      },
+      "registry_name": "owls"
+    },
+    {
+      "name": "Toilet",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toilet"
+    },
+    {
+      "name": "IceCream",
+      "type": "food",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_cream"
+    },
+    {
+      "name": "Snake",
+      "type": "mob",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7,
+        "1": 8
+      },
+      "registry_name": "snake"
+    },
+    {
+      "name": "ItemCrafttingSound",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_craftting_sound",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gummy",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummy"
+    },
+    {
+      "name": "GummyGreen",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummy_green"
+    },
+    {
+      "name": "DarkChocolateRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_chocolate_recipe"
+    },
+    {
+      "name": "MilkChocolateRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milk_chocolate_recipe"
+    },
+    {
+      "name": "WhiteChocolateRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_chocolate_recipe"
+    },
+    {
+      "name": "HogMoney",
+      "type": "tab",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hog_money"
+    },
+    {
+      "name": "OneGallion",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "one_gallion"
+    },
+    {
+      "name": "TenGallions",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ten_gallions"
+    },
+    {
+      "name": "FiftyGallions",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fifty_gallions"
+    },
+    {
+      "name": "FirstjoinCommandExecuted",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firstjoin_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firstjoin",
+      "type": "command",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firstjoin"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "hogmusique",
+      "name": "trailer_musique",
       "files": [
-        "musique-generique-harry-potter"
+        "harry-potter-hedwigs-theme-epic-trailer-version"
       ],
       "category": "music",
-      "subtitle": "Hogmusic-Generique"
+      "subtitle": "Hog Trailer Musique"
+    },
+    {
+      "name": "snake_living_sound",
+      "files": [
+        "snake-sound"
+      ],
+      "category": "hostile",
+      "subtitle": "snake"
+    },
+    {
+      "name": "crafting_sound",
+      "files": [
+        "bruit-de-scie"
+      ],
+      "category": "ambient",
+      "subtitle": "craft"
     }
   ],
   "language_map": {
     "en_us": {
       "item.logo_creative_tab.name": "Logo Hogcraft",
-      "item.backpack.name": "Backpack",
-      "tile.serdaigle_crate.name": "Serdaigle Crate",
+      "item.backpack.name": "Sac à dos",
+      "tile.serdaigle_crate.name": "Boite Serdaigle",
+      "subtitles.snake_living_sound": "snake",
       "item.pouffsoufle_key.name": "§7Pouffsoufle §eKey",
+      "subtitles.trailer_musique": "Hog Trailer Musique",
+      "item.beer.name": "Bière",
+      "item.one_gallion.name": "One Gallion",
       "effect.gellyweed": "Gellyweed",
-      "tile.gryffondor_crate.name": "Gryffondor Crate",
-      "item.dark_chocolate.name": "Dark Chocolate",
+      "tile.gryffondor_crate.name": "Boite Gryffondor",
+      "item.dark_chocolate.name": "Chocolat Noir",
       "item.gryffondor_key.name": "§6Gryffondor §cKey",
       "itemGroup.tabhogcraft_item": "Hogcraft Item",
-      "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
+      "tile.pouffsouffle_crate.name": "Boite Pouffsoufle",
       "potion.effect.gellyweed": "Gellyweed",
       "tile.balai_quiddtch.name": "Balai Quiddtch",
+      "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "item.serpentard_key.name": "§2Serpentard §aKey",
       "itemGroup.tabhogcraft_food": "Hogcraft Food",
+      "itemGroup.tabhog_money": "Hog Money",
       "item.milk_chocolate.name": "Milk Chocolate",
       "item.white_chocolate.name": "White Chocolate",
       "item.serdaigle_key.name": "§1Serdaigle §9Key",
       "subtitles.hogmusique": "Hogmusic-Generique",
-      "tile.balai.name": "Balai",
-      "item.record.hog_generique.desc": "HogGénérique",
+      "tile.balai.name": "Broom",
+      "item.record.hog_generique.desc": "Hog Trailer Musique - Hedwige Theme",
+      "entity.snake.name": "Snake",
+      "item.ten_gallions.name": "Ten Gallions",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",
+      "item.fifty_gallions.name": "Fifty Gallions",
       "item.hog_generique.name": "Hog Generique",
       "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
+      "item.toilet.name": "Toilet",
       "item.gummy_bear.name": "Gummy Candy Green",
+      "item.ice_cream.name": "Ice Cream",
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
       "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
@@ -503,7 +717,11 @@
       "item.logo_creative_tab.name": "Logo Hogcraft",
       "item.backpack.name": "Backpack",
       "tile.serdaigle_crate.name": "Serdaigle Crate",
+      "subtitles.snake_living_sound": "snake",
       "item.pouffsoufle_key.name": "Pouffsoufle Key",
+      "item.beer.name": "Beer",
+      "subtitles.trailer_musique": "Hog Trailer Musique",
+      "item.one_gallion.name": "One Gallion",
       "effect.gellyweed": "Gellyweed",
       "tile.gryffondor_crate.name": "Gryffondor Crate",
       "item.dark_chocolate.name": "Chocolat Noir",
@@ -512,20 +730,27 @@
       "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
       "potion.effect.gellyweed": "Gellyweed",
       "tile.balai_quiddtch.name": "Balai Quiddtch",
+      "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "item.serpentard_key.name": "Serpentard Key",
       "itemGroup.tabhogcraft_food": "Hogcraft Nourriture",
+      "itemGroup.tabhog_money": "Hog Money",
       "item.milk_chocolate.name": "Chocolat au lait",
       "item.white_chocolate.name": "Chocolat Blanc",
       "item.serdaigle_key.name": "Serdaigle Key",
       "subtitles.hogmusique": "Hogmusic-Generique",
       "tile.balai.name": "Balai",
       "item.record.hog_generique.desc": "HogGénérique",
+      "entity.snake.name": "Snake",
+      "item.ten_gallions.name": "Ten Gallions",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",
+      "item.fifty_gallions.name": "Fifty Gallions",
       "item.hog_generique.name": "Hog Generique",
       "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
+      "item.toilet.name": "Toilet",
       "item.gummy_bear.name": "Bonbon Gelatineux",
+      "item.ice_cream.name": "Ice Cream",
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
       "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
