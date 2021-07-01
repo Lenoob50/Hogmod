@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "brown_wool",
+        "1": "sortinghat",
+        "2": "jungle_planks"
+      },
+      "name": "default"
+    }
+  }
+}

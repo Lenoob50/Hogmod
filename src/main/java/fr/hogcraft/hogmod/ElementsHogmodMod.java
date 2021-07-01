@@ -46,6 +46,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
 import fr.hogcraft.hogmod.gui.GuiBaginv;
+import fr.hogcraft.hogmod.gui.GuiArmoireInv;
 
 public class ElementsHogmodMod implements IFuelHandler, IWorldGenerator {
 	public final List<ModElement> elements = new ArrayList<>();
@@ -132,6 +133,8 @@ public class ElementsHogmodMod implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiBaginv.GUIID)
 				return new GuiBaginv.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiArmoireInv.GUIID)
+				return new GuiArmoireInv.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -139,6 +142,8 @@ public class ElementsHogmodMod implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiBaginv.GUIID)
 				return new GuiBaginv.GuiWindow(world, x, y, z, player);
+			if (id == GuiArmoireInv.GUIID)
+				return new GuiArmoireInv.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

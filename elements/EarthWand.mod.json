@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "wand_box",
+    "texture": "filled_map",
     "customModelName": "Normal",
-    "name": "Wand Box",
-    "rarity": "COMMON",
+    "name": "Baguette de Terre",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:HogcraftItem"
+      "value": "No creative tab entry"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -23,18 +23,10 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§2Clique droit pour connaitre votre type de baguette"
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "WandClickedBox"
-    },
-    "onRightClickedOnBlock": {
-      "name": "WandClickedBox"
-    }
+    "inventoryStackSize": 64
   }
 }

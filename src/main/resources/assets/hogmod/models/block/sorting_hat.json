@@ -1,0 +1,10 @@
+{
+  "parent": "hogmod:custom/anvil",
+  "textures": {
+    "all": "hogmod:blocks/sortinghat",
+    "particle": "hogmod:blocks/sortinghat",
+    "0": "hogmod:blocks/brown_wool",
+    "1": "hogmod:blocks/sortinghat",
+    "2": "hogmod:blocks/jungle_planks"
+  }
+}

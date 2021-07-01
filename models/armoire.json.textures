@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "gold_block",
+        "2": "spruce_planks",
+        "missing": "oak_planks"
+      },
+      "name": "default"
+    }
+  }
+}

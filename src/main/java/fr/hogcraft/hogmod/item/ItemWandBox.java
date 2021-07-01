@@ -16,10 +16,12 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import java.util.Map;
+import java.util.List;
 import java.util.HashMap;
 
 import fr.hogcraft.hogmod.procedure.ProcedureWandClickedBox;
@@ -75,6 +77,12 @@ public class ItemWandBox extends ElementsHogmodMod.ModElement {
 		}
 
 		@Override
+		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add("\u00A72Clique droit pour connaitre votre type de baguette");
+		}
+
+		@Override
 		public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer entity, EnumHand hand) {
 			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
 			ItemStack itemstack = ar.getResult();
@@ -83,7 +91,7 @@ public class ItemWandBox extends ElementsHogmodMod.ModElement {
 			int z = (int) entity.posZ;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("itemstack", itemstack);
+				$_dependencies.put("entity", entity);
 				ProcedureWandClickedBox.executeProcedure($_dependencies);
 			}
 			return ar;
@@ -99,7 +107,7 @@ public class ItemWandBox extends ElementsHogmodMod.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("itemstack", itemstack);
+				$_dependencies.put("entity", entity);
 				ProcedureWandClickedBox.executeProcedure($_dependencies);
 			}
 			return retval;

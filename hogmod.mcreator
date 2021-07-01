@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 3,
-    "ENTITY": 14
+    "ENTITY": 14,
+    "GUI": 4
   },
   "mod_elements": [
     {
@@ -757,17 +757,91 @@
       "type": "procedure",
       "sortid": 66,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "wand_clicked_box",
       "metadata": {
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
+    },
+    {
+      "name": "WandBox",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "wand_box"
+    },
+    {
+      "name": "ArmoireInv",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 4
+      },
+      "registry_name": "armoire_inv"
+    },
+    {
+      "name": "Armoire",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "armoire"
+    },
+    {
+      "name": "FireWand",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "fire_wand"
+    },
+    {
+      "name": "WaterWand",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "water_wand"
+    },
+    {
+      "name": "AirWand",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "air_wand"
+    },
+    {
+      "name": "EarthWand",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "earth_wand"
+    },
+    {
+      "name": "SortingHat",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "sorting_hat"
     }
   ],
   "variable_elements": [
@@ -809,6 +883,8 @@
       "tile.serdaigle_crate.name": "Serdaigle Crate",
       "item.train_ticket.name": "Train Ticket",
       "subtitles.snake_living_sound": "snake",
+      "item.fire_wand.name": "Baguette de Feu",
+      "item.water_wand.name": "Baguette d\u0027eau",
       "subtitles.trailer_musique": "Hog Trailer Musique",
       "item.one_gallion.name": "One Gallion",
       "effect.gellyweed": "Gellyweed",
@@ -816,12 +892,14 @@
       "entity.owls.name": "Owls",
       "potion.effect.gellyweed": "Gellyweed",
       "item.glow_ten_gallions.name": "§dTen Gallions",
+      "item.earth_wand.name": "Baguette de Terre",
       "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "item.glow_fifty_gallion.name": "§4Fifty Gallion",
-      "item.milk_chocolate.name": "Milk Chocolate",
+      "item.wand_box.name": "Wand Box",
       "item.serdaigle_key.name": "§1Serdaigle §9Key",
+      "item.milk_chocolate.name": "Milk Chocolate",
       "subtitles.hogmusique": "Hogmusic-Generique",
       "tile.balai.name": "Balai",
       "item.ten_gallions.name": "Ten Gallions",
@@ -834,7 +912,9 @@
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
       "item.logo_creative_tab.name": "Logo Hogcraft",
+      "item.air_wand.name": "Baguette de l\u0027air",
       "item.backpack.name": "Backpack",
+      "tile.armoire.name": "Armoire",
       "item.pouffsoufle_key.name": "§7Pouffsoufle §eKey",
       "item.beer.name": "Beer",
       "item.poudlardletter.name": "Lettre d\u0027admission à Poudlard",
@@ -850,6 +930,7 @@
       "item.white_chocolate.name": "White Chocolate",
       "entity.snake.name": "Snake",
       "item.record.hog_generique.desc": "Hog Trailer Musique - Hedwige Theme",
+      "tile.sorting_hat.name": "Sorting Hat",
       "item.hog_generique.name": "Hog Generique",
       "item.toilet.name": "Toilet",
       "item.glow_one_gallions.name": "§3One Gallion",
@@ -862,6 +943,8 @@
       "tile.serdaigle_crate.name": "Serdaigle Crate",
       "item.train_ticket.name": "Train Ticket",
       "subtitles.snake_living_sound": "snake",
+      "item.fire_wand.name": "Baguette de Feu",
+      "item.water_wand.name": "Baguette d\u0027eau",
       "subtitles.trailer_musique": "Hog Trailer Musique",
       "item.one_gallion.name": "One Gallion",
       "effect.gellyweed": "Gellyweed",
@@ -869,12 +952,14 @@
       "entity.owls.name": "Owls",
       "potion.effect.gellyweed": "Gellyweed",
       "item.glow_ten_gallions.name": "§dTen Gallions",
+      "item.earth_wand.name": "Baguette de Terre",
       "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
       "item.glow_fifty_gallion.name": "§4Fifty Gallion",
-      "item.milk_chocolate.name": "Chocolat au lait",
+      "item.wand_box.name": "Wand Box",
       "item.serdaigle_key.name": "Serdaigle Key",
+      "item.milk_chocolate.name": "Chocolat au lait",
       "subtitles.hogmusique": "Hogmusic-Generique",
       "tile.balai.name": "Balai",
       "item.ten_gallions.name": "Ten Gallions",
@@ -887,7 +972,9 @@
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
       "item.logo_creative_tab.name": "Logo Hogcraft",
+      "item.air_wand.name": "Baguette de l\u0027air",
       "item.backpack.name": "Backpack",
+      "tile.armoire.name": "Armoire",
       "item.pouffsoufle_key.name": "Pouffsoufle Key",
       "item.beer.name": "Beer",
       "item.poudlardletter.name": "Lettre d\u0027admission à Poudlard",
@@ -903,6 +990,7 @@
       "item.white_chocolate.name": "Chocolat Blanc",
       "entity.snake.name": "Snake",
       "item.record.hog_generique.desc": "HogGénérique",
+      "tile.sorting_hat.name": "Sorting Hat",
       "item.hog_generique.name": "Hog Generique",
       "item.toilet.name": "Toilet",
       "item.glow_one_gallions.name": "One Gallion",

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hogmod:armoire"
+    },
+    "facing=north": {
+      "model": "hogmod:armoire"
+    },
+    "facing=east": {
+      "model": "hogmod:armoire",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hogmod:armoire",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hogmod:armoire",
+      "y": 270
+    }
+  }
+}

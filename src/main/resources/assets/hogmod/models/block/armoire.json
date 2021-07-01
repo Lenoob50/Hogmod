@@ -1,0 +1,11 @@
+{
+  "parent": "hogmod:custom/armoire",
+  "textures": {
+    "all": "hogmod:blocks/spruce_planks",
+    "particle": "hogmod:blocks/spruce_planks",
+    "0": "hogmod:blocks/oak_planks",
+    "1": "hogmod:blocks/gold_block",
+    "2": "hogmod:blocks/spruce_planks",
+    "missing": "hogmod:blocks/oak_planks"
+  }
+}
