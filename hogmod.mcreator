@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 8,
-    "GUI": 3
+    "GUI": 3,
+    "ENTITY": 14
   },
   "mod_elements": [
     {
@@ -9,7 +9,7 @@
       "type": "food",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gummy_bear"
     },
@@ -18,7 +18,7 @@
       "type": "item",
       "sortid": 3,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "logo_creative_tab"
     },
@@ -27,7 +27,7 @@
       "type": "tab",
       "sortid": 4,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hogcraft_item"
     },
@@ -36,7 +36,7 @@
       "type": "tab",
       "sortid": 5,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hogcraft_food"
     },
@@ -45,7 +45,7 @@
       "type": "food",
       "sortid": 6,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "milk_chocolate"
     },
@@ -54,7 +54,7 @@
       "type": "food",
       "sortid": 7,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "dark_chocolate"
     },
@@ -63,7 +63,7 @@
       "type": "food",
       "sortid": 8,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "white_chocolate"
     },
@@ -72,7 +72,7 @@
       "type": "procedure",
       "sortid": 9,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "broom_right_clicked_on_entity",
       "metadata": {
@@ -89,7 +89,7 @@
       "type": "musicdisc",
       "sortid": 10,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hog_generique"
     },
@@ -98,7 +98,7 @@
       "type": "potion",
       "sortid": 14,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gellyweed"
     },
@@ -107,7 +107,7 @@
       "type": "procedure",
       "sortid": 15,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gellyweed_potion_startedapplied",
       "metadata": {
@@ -124,7 +124,7 @@
       "type": "recipe",
       "sortid": 16,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "recipe_potions"
     },
@@ -133,7 +133,7 @@
       "type": "tab",
       "sortid": 17,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hogcraft_plants"
     },
@@ -142,7 +142,7 @@
       "type": "plant",
       "sortid": 17,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gelly_weed_plants"
     },
@@ -151,7 +151,7 @@
       "type": "food",
       "sortid": 18,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "potion_of_gellyweed"
     },
@@ -160,7 +160,7 @@
       "type": "procedure",
       "sortid": 19,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "command_de_test_du_mod_command_executed",
       "metadata": {
@@ -177,7 +177,7 @@
       "type": "command",
       "sortid": 19,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "command_de_test_du_mod"
     },
@@ -186,7 +186,7 @@
       "type": "food",
       "sortid": 21,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gummy_bear_red"
     },
@@ -195,7 +195,7 @@
       "type": "gui",
       "sortid": 24,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {
         "0": 2
       },
@@ -206,7 +206,7 @@
       "type": "procedure",
       "sortid": 25,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "closebag",
       "metadata": {
@@ -223,7 +223,7 @@
       "type": "item",
       "sortid": 24,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "backpack"
     },
@@ -232,7 +232,7 @@
       "type": "procedure",
       "sortid": 26,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "backpack_right_clicked_in_air",
       "metadata": {
@@ -265,7 +265,7 @@
       "type": "block",
       "sortid": 29,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "balai_quiddtch"
     },
@@ -274,7 +274,7 @@
       "type": "block",
       "sortid": 30,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "balai"
     },
@@ -283,7 +283,7 @@
       "type": "block",
       "sortid": 31,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gryffondor_crate"
     },
@@ -292,7 +292,7 @@
       "type": "block",
       "sortid": 32,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "serpentard_crate"
     },
@@ -301,7 +301,7 @@
       "type": "block",
       "sortid": 33,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "pouffsouffle_crate"
     },
@@ -310,7 +310,7 @@
       "type": "block",
       "sortid": 34,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "serdaigle_crate"
     },
@@ -319,7 +319,7 @@
       "type": "item",
       "sortid": 35,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gryffondor_key"
     },
@@ -328,7 +328,7 @@
       "type": "procedure",
       "sortid": 35,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "getgem_command_executed",
       "metadata": {
@@ -345,7 +345,7 @@
       "type": "command",
       "sortid": 35,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "getgryffondorkey"
     },
@@ -354,7 +354,7 @@
       "type": "item",
       "sortid": 36,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "serpentard_key"
     },
@@ -363,7 +363,7 @@
       "type": "item",
       "sortid": 37,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "serdaigle_key"
     },
@@ -372,7 +372,7 @@
       "type": "item",
       "sortid": 38,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "pouffsoufle_key"
     },
@@ -381,7 +381,7 @@
       "type": "procedure",
       "sortid": 39,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "get_serpentard_key_command_executed",
       "metadata": {
@@ -398,7 +398,7 @@
       "type": "command",
       "sortid": 39,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "get_serpentard_key"
     },
@@ -407,7 +407,7 @@
       "type": "procedure",
       "sortid": 40,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "get_serdaigle_key_command_executed",
       "metadata": {
@@ -424,7 +424,7 @@
       "type": "command",
       "sortid": 40,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "get_serdaigle_key"
     },
@@ -433,7 +433,7 @@
       "type": "procedure",
       "sortid": 41,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "get_pouffosouffle_key_command_executed",
       "metadata": {
@@ -450,7 +450,7 @@
       "type": "command",
       "sortid": 41,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "get_pouffosouffle_key"
     },
@@ -459,7 +459,7 @@
       "type": "item",
       "sortid": 42,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "beer"
     },
@@ -468,7 +468,7 @@
       "type": "mob",
       "sortid": 43,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {
         "0": 3,
         "1": 4
@@ -480,7 +480,7 @@
       "type": "item",
       "sortid": 44,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "toilet"
     },
@@ -489,7 +489,7 @@
       "type": "food",
       "sortid": 45,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "ice_cream"
     },
@@ -498,7 +498,7 @@
       "type": "mob",
       "sortid": 46,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {
         "0": 7,
         "1": 8
@@ -510,7 +510,7 @@
       "type": "procedure",
       "sortid": 47,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "item_craftting_sound",
       "metadata": {
@@ -539,7 +539,7 @@
       "type": "recipe",
       "sortid": 48,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gummy"
     },
@@ -548,7 +548,7 @@
       "type": "recipe",
       "sortid": 49,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "gummy_green"
     },
@@ -557,7 +557,7 @@
       "type": "recipe",
       "sortid": 50,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "dark_chocolate_recipe"
     },
@@ -566,7 +566,7 @@
       "type": "recipe",
       "sortid": 51,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "milk_chocolate_recipe"
     },
@@ -575,7 +575,7 @@
       "type": "recipe",
       "sortid": 52,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "white_chocolate_recipe"
     },
@@ -584,7 +584,7 @@
       "type": "tab",
       "sortid": 53,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hog_money"
     },
@@ -593,7 +593,7 @@
       "type": "item",
       "sortid": 53,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "one_gallion"
     },
@@ -602,7 +602,7 @@
       "type": "item",
       "sortid": 54,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "ten_gallions"
     },
@@ -611,7 +611,7 @@
       "type": "item",
       "sortid": 55,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "fifty_gallions"
     },
@@ -620,7 +620,7 @@
       "type": "procedure",
       "sortid": 56,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "firstjoin_command_executed",
       "metadata": {
@@ -637,7 +637,7 @@
       "type": "command",
       "sortid": 56,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "firstjoin"
     },
@@ -646,7 +646,7 @@
       "type": "item",
       "sortid": 57,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "glow_one_gallions"
     },
@@ -655,7 +655,7 @@
       "type": "item",
       "sortid": 58,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "glow_ten_gallions"
     },
@@ -664,12 +664,120 @@
       "type": "item",
       "sortid": 59,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "glow_fifty_gallion"
+    },
+    {
+      "name": "HogList",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "hog_list"
+    },
+    {
+      "name": "Poudlardletter",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "poudlardletter"
+    },
+    {
+      "name": "BrowOwl",
+      "type": "mob",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 9,
+        "1": 10
+      },
+      "registry_name": "brow_owl"
+    },
+    {
+      "name": "WhiteOwl",
+      "type": "mob",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 11,
+        "1": 12
+      },
+      "registry_name": "white_owl"
+    },
+    {
+      "name": "MangeMortEntityIsHurt",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "mange_mort_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MangeMort",
+      "type": "mob",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 13,
+        "1": 14
+      },
+      "registry_name": "mange_mort"
+    },
+    {
+      "name": "TrainTicket",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "train_ticket"
+    },
+    {
+      "name": "WandClickedBox",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wand_clicked_box",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Random",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "trailer_musique",
@@ -698,95 +806,109 @@
   ],
   "language_map": {
     "en_us": {
-      "item.logo_creative_tab.name": "Logo Hogcraft",
-      "item.backpack.name": "Sac à dos",
-      "tile.serdaigle_crate.name": "Boite Serdaigle",
+      "tile.serdaigle_crate.name": "Serdaigle Crate",
+      "item.train_ticket.name": "Train Ticket",
       "subtitles.snake_living_sound": "snake",
-      "item.pouffsoufle_key.name": "§7Pouffsoufle §eKey",
       "subtitles.trailer_musique": "Hog Trailer Musique",
-      "item.beer.name": "Bière",
       "item.one_gallion.name": "One Gallion",
       "effect.gellyweed": "Gellyweed",
-      "tile.gryffondor_crate.name": "Boite Gryffondor",
-      "item.dark_chocolate.name": "Chocolat Noir",
-      "item.gryffondor_key.name": "§6Gryffondor §cKey",
       "itemGroup.tabhogcraft_item": "Hogcraft Item",
-      "tile.pouffsouffle_crate.name": "Boite Pouffsoufle",
+      "entity.owls.name": "Owls",
       "potion.effect.gellyweed": "Gellyweed",
       "item.glow_ten_gallions.name": "§dTen Gallions",
-      "tile.balai_quiddtch.name": "Balai Quiddtch",
       "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
-      "item.serpentard_key.name": "§2Serpentard §aKey",
       "item.glow_fifty_gallion.name": "§4Fifty Gallion",
-      "itemGroup.tabhogcraft_food": "Hogcraft Food",
-      "itemGroup.tabhog_money": "Hog Money",
       "item.milk_chocolate.name": "Milk Chocolate",
-      "item.white_chocolate.name": "White Chocolate",
       "item.serdaigle_key.name": "§1Serdaigle §9Key",
       "subtitles.hogmusique": "Hogmusic-Generique",
-      "tile.balai.name": "Broom",
-      "item.record.hog_generique.desc": "Hog Trailer Musique - Hedwige Theme",
-      "entity.snake.name": "Snake",
+      "tile.balai.name": "Balai",
       "item.ten_gallions.name": "Ten Gallions",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",
       "item.fifty_gallions.name": "Fifty Gallions",
-      "item.hog_generique.name": "Hog Generique",
+      "entity.brow_owl.name": "Brow Owl",
       "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
-      "item.toilet.name": "Toilet",
       "item.gummy_bear.name": "Gummy Candy Green",
       "item.ice_cream.name": "Ice Cream",
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
+      "item.logo_creative_tab.name": "Logo Hogcraft",
+      "item.backpack.name": "Backpack",
+      "item.pouffsoufle_key.name": "§7Pouffsoufle §eKey",
+      "item.beer.name": "Beer",
+      "item.poudlardletter.name": "Lettre d\u0027admission à Poudlard",
+      "tile.gryffondor_crate.name": "Gryffondor Crate",
+      "item.dark_chocolate.name": "Dark Chocolate",
+      "item.gryffondor_key.name": "§6Gryffondor §cKey",
+      "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
+      "entity.white_owl.name": "White Owl",
+      "tile.balai_quiddtch.name": "Balai Quiddtch",
+      "item.serpentard_key.name": "§2Serpentard §aKey",
+      "itemGroup.tabhogcraft_food": "Hogcraft Food",
+      "itemGroup.tabhog_money": "Hog Money",
+      "item.white_chocolate.name": "White Chocolate",
+      "entity.snake.name": "Snake",
+      "item.record.hog_generique.desc": "Hog Trailer Musique - Hedwige Theme",
+      "item.hog_generique.name": "Hog Generique",
+      "item.toilet.name": "Toilet",
       "item.glow_one_gallions.name": "§3One Gallion",
+      "entity.mange_mort.name": "Mange Mort",
       "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
+      "item.hog_list.name": "Liste des fournitures de Poudlard",
       "item.potion_of_gellyweed.name": "Potion Of Gellyweed"
     },
     "fr_fr": {
-      "item.logo_creative_tab.name": "Logo Hogcraft",
-      "item.backpack.name": "Backpack",
       "tile.serdaigle_crate.name": "Serdaigle Crate",
+      "item.train_ticket.name": "Train Ticket",
       "subtitles.snake_living_sound": "snake",
-      "item.pouffsoufle_key.name": "Pouffsoufle Key",
-      "item.beer.name": "Beer",
       "subtitles.trailer_musique": "Hog Trailer Musique",
       "item.one_gallion.name": "One Gallion",
       "effect.gellyweed": "Gellyweed",
-      "tile.gryffondor_crate.name": "Gryffondor Crate",
-      "item.dark_chocolate.name": "Chocolat Noir",
-      "item.gryffondor_key.name": "Gryffondor Key",
       "itemGroup.tabhogcraft_item": "Item Hogcraft",
-      "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
+      "entity.owls.name": "Owls",
       "potion.effect.gellyweed": "Gellyweed",
       "item.glow_ten_gallions.name": "§dTen Gallions",
-      "tile.balai_quiddtch.name": "Balai Quiddtch",
       "subtitles.crafting_sound": "craft",
       "splash_potion.effect.gellyweed": "Splash Gellyweed",
       "tipped_arrow.effect.gellyweed": "Arrow of Gellyweed",
-      "item.serpentard_key.name": "Serpentard Key",
       "item.glow_fifty_gallion.name": "§4Fifty Gallion",
-      "itemGroup.tabhogcraft_food": "Hogcraft Nourriture",
-      "itemGroup.tabhog_money": "Hog Money",
       "item.milk_chocolate.name": "Chocolat au lait",
-      "item.white_chocolate.name": "Chocolat Blanc",
       "item.serdaigle_key.name": "Serdaigle Key",
       "subtitles.hogmusique": "Hogmusic-Generique",
       "tile.balai.name": "Balai",
-      "item.record.hog_generique.desc": "HogGénérique",
-      "entity.snake.name": "Snake",
       "item.ten_gallions.name": "Ten Gallions",
       "tile.gelly_weed_plants.name": "Gelly Weed Plants",
       "item.fifty_gallions.name": "Fifty Gallions",
-      "item.hog_generique.name": "Hog Generique",
+      "entity.brow_owl.name": "Brow Owl",
       "itemGroup.tabhogcraft_plants": "Hogcraft Plants",
-      "item.toilet.name": "Toilet",
       "item.gummy_bear.name": "Bonbon Gelatineux",
       "item.ice_cream.name": "Ice Cream",
       "tile.serpentard_crate.name": "Serpentard Crate",
       "item.gummy_bear_red.name": "Gummy Bear Red",
+      "item.logo_creative_tab.name": "Logo Hogcraft",
+      "item.backpack.name": "Backpack",
+      "item.pouffsoufle_key.name": "Pouffsoufle Key",
+      "item.beer.name": "Beer",
+      "item.poudlardletter.name": "Lettre d\u0027admission à Poudlard",
+      "tile.gryffondor_crate.name": "Gryffondor Crate",
+      "item.dark_chocolate.name": "Chocolat Noir",
+      "item.gryffondor_key.name": "Gryffondor Key",
+      "tile.pouffsouffle_crate.name": "Pouffsouffle Crate",
+      "entity.white_owl.name": "White Owl",
+      "tile.balai_quiddtch.name": "Balai Quiddtch",
+      "item.serpentard_key.name": "Serpentard Key",
+      "itemGroup.tabhogcraft_food": "Hogcraft Nourriture",
+      "itemGroup.tabhog_money": "Hog Money",
+      "item.white_chocolate.name": "Chocolat Blanc",
+      "entity.snake.name": "Snake",
+      "item.record.hog_generique.desc": "HogGénérique",
+      "item.hog_generique.name": "Hog Generique",
+      "item.toilet.name": "Toilet",
       "item.glow_one_gallions.name": "One Gallion",
+      "entity.mange_mort.name": "Mange Mort",
       "lingering_potion.effect.gellyweed": "Lingering Gellyweed",
+      "item.hog_list.name": "Liste des fournitures de Poudlard",
       "item.potion_of_gellyweed.name": "Potion Of Gellyweed"
     }
   },

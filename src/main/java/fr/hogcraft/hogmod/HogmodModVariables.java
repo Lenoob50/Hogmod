@@ -11,9 +11,12 @@ import net.minecraft.world.World;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.client.Minecraft;
 
+import java.util.Random;
+
 public class HogmodModVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "hogmod_mapvars";
+		public double Random = 0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -24,10 +27,12 @@ public class HogmodModVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
+			Random = nbt.getDouble("Random");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			nbt.setDouble("Random", Random);
 			return nbt;
 		}
 

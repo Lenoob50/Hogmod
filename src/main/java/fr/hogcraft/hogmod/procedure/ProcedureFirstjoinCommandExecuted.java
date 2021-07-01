@@ -8,6 +8,9 @@ import net.minecraft.entity.Entity;
 
 import java.util.Map;
 
+import fr.hogcraft.hogmod.item.ItemTrainTicket;
+import fr.hogcraft.hogmod.item.ItemPoudlardletter;
+import fr.hogcraft.hogmod.item.ItemHogList;
 import fr.hogcraft.hogmod.item.ItemGlowTenGallions;
 import fr.hogcraft.hogmod.item.ItemGlowOneGallions;
 import fr.hogcraft.hogmod.item.ItemGlowFiftyGallion;
@@ -38,6 +41,21 @@ public class ProcedureFirstjoinCommandExecuted extends ElementsHogmodMod.ModElem
 		if (entity instanceof EntityPlayer) {
 			ItemStack _setstack = new ItemStack(ItemGlowFiftyGallion.block, (int) (1));
 			_setstack.setCount(10);
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+		}
+		if (entity instanceof EntityPlayer) {
+			ItemStack _setstack = new ItemStack(ItemHogList.block, (int) (1));
+			_setstack.setCount(1);
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+		}
+		if (entity instanceof EntityPlayer) {
+			ItemStack _setstack = new ItemStack(ItemPoudlardletter.block, (int) (1));
+			_setstack.setCount(1);
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+		}
+		if (entity instanceof EntityPlayer) {
+			ItemStack _setstack = new ItemStack(ItemTrainTicket.block, (int) (1));
+			_setstack.setCount(1);
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
 		}
 	}

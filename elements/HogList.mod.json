@@ -1,0 +1,34 @@
+{
+  "_fv": 13,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "filled_map",
+    "customModelName": "Normal",
+    "name": "Liste des fournitures de Poudlard",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:HogcraftItem"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§2-64 Feuilles de papier -2 Plumes -1 Ciseaux -2 Chaudrauculus -1 Balai -1 Livre des sorts -1 Livre d'histoire de la magie -1 Livre d'étude des moldus -1 Livre des creatures du monde magiques"
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}
